@@ -67,7 +67,7 @@ Open the Open API user interface to try the REST API.
 
 ## Optional: Use your own Image
 
-If you want you can make changes to the Java code and/or image and push these changes to your own Docker Hub account. In order to do this, you need a Docker Hub account and invoke these commands:
+If you want you can make changes to the Java code and/or image and push these changes to your own Docker Hub account. In order to do this, you need a Docker Hub account and invoke these commands *(Note: if you see the following error: `Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?` please mind that these commands needs to be run in the terminal outside Docker image from the option 2)* :
 
 ```
 $ cd ${ROOT_FOLDER}/2-deploying-to-openshift
